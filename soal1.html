@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	.container{
+		width: 100%;
+		height: 100vh;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+	}
+	.container>.head{
+		width: 100%;
+		height: 50px;
+		background-color: #005bbc;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+
+	}
+	.container>.head>.menu{
+		width: 80px;
+		height: 100%;
+		margin-left: 5px;
+		margin-right: 5px;
+		background-color: #005bbc;
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.container>.head>.menu:hover{
+		background-color: white;
+		color: #005bbc;
+	}
+	.btn{
+		background-color: white;
+		border-radius: 20px;
+		border-style: none;
+		padding: 3px;
+		margin-left: 15px;
+		color: #005bbc;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.btn:hover{
+		border: 2px solid white;
+		background-color: #005bbc;
+		color: white;
+	}
+	.container>.head>.h{
+		display: flex;
+		justify-content: flex-end;
+		color: white;
+	}
+	.container>.conten{
+		text-align: center;
+		justify-content: space-between;
+	}
+	.container>.conten>.garis{
+		width: 90px;
+		height: 8px;
+		border-radius: 6px;
+		background-color: #005bbc;
+		display: flex;
+		align-content: center;
+	}
+	.tulis{
+		text-align: center;
+		font-family: arial;
+		font-size: 14px;
+	}
+	.co{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.kotak{
+		width: 200px;
+		height: 250px;
+		margin: 30px;
+		display: flex;
+		flex-direction: column;
+	}
+	.kotak>.coment{
+		width: 200px;
+		height: 125px;
+		position: fixed;
+		justify-content: flex-end;
+		background-color: #005bbc;
+		color: white;
+		text-align: center;
+	}
+	.kotak>.img{
+		position: relative;
+	}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="head">
+		<div class="menu">HOME</div>
+		<div class="menu">ABOUT</div>
+		<div class="menu">SERVICE</div>
+		<div class="menu">TEAM</div>
+		<div class="menu">NEWS</div>
+		<div class="menu">CONTACT</div>	
+		<form>
+			<input type="button" name="signin" value="SIGN IN" class="btn"></input>
+		</form>
+		<div class="h">
+			<h2 class="h">Paypoll</h2>
+		</div>
+	</div>
+	<div class="conten">
+		<h2>Why Choose Paypoll</h2>
+		<div class="garis"></div>
+		<div class="tulis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna</div>
+	</div>
+	<div class="co">
+		<div class="kotak">
+			<div class="img">
+				<img src="feature-1.jpg" width="200px" height="125px">
+			</div>
+			<div class="coment">
+				<div>
+					<h6>VERIFY ACCOUNT</h6>
+				</div>
+			</div>
+		</div>
+		<div class="kotak">
+			<div>
+				<img src="feature-2.jpg" width="200px" height="125px">
+			</div>
+			<div class="coment">
+				<div>
+					<h6>PAYMENT ANYWHERE</h6>
+				</div>
+			</div>
+		</div>
+		<div class="kotak">
+			<div>
+				<img src="feature-3.jpg" width="200px" height="125px">
+			</div>
+		<div class="coment">
+				<div>
+					<h6>SAFETY TRANSACTION</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
